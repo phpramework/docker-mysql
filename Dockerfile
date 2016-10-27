@@ -7,5 +7,4 @@ ENV MYSQL_ROOT_PASSWORD=my_root \
     MYSQL_USER=benchmarkdbuser \
     MYSQL_PASSWORD=benchmarkdbpass
 
-COPY 99-charset.cnf /etc/mysql/conf.d/99-charset.cnf
 COPY create.sql /docker-entrypoint-initdb.d/create.sql
