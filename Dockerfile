@@ -1,4 +1,4 @@
-FROM mysql:5.7.16
+FROM mysql:5.7.17
 
 MAINTAINER phpramework <phpramework@gmail.com>
 
